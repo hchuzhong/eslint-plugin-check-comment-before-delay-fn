@@ -39,6 +39,16 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+or add options.
+
+```json
+{
+    "rules": {
+        "check-comment-before-delay-fn/rule-name": [2, 'testFn1', 'testFn2']
+    }
+}
+```
+
 ## Supported Rules
 
 * Fill in provided rules here
