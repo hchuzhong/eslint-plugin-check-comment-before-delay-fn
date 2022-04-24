@@ -18,6 +18,6 @@ ruleTester.run('delay-fn-comment', rule, {
     }],
     invalid: [{
         code: `setTimeout();`,
-        errors: [{ message: 'error: should add comment before async function' }]
+        errors: [{ message: 'error: add comment before delay function' }]
     }]
 })
